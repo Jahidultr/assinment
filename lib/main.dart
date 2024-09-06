@@ -67,7 +67,6 @@ class _ShoppingCartState extends State<ShoppingCart> {
     });
   }
 
-  // Show Snackbar
   void showCheckoutSnackbar(BuildContext context) {
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(
