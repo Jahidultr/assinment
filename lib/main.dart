@@ -140,7 +140,7 @@ class _ShoppingCartState extends State<ShoppingCart> {
                               ],
                             ),
                           ),
-                          // Quantity Controls and Price
+
                           Row(
                             children: [
                               IconButton(
