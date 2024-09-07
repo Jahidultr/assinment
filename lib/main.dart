@@ -144,7 +144,7 @@ class _ShoppingCartState extends State<ShoppingCart> {
                           Row(
                             children: [
                               IconButton(
-                                icon: const Icon(Icons.remove_circle_outline),
+                                icon: Icon(Icons.remove_circle_outline),
                                 onPressed: () => decrementQuantity(index),
                               ),
                               Padding(
@@ -156,7 +156,7 @@ class _ShoppingCartState extends State<ShoppingCart> {
                                 ),
                               ),
                               IconButton(
-                                icon: const Icon(Icons.add_circle_outline),
+                                icon: Icon(Icons.add_circle_outline),
                                 onPressed: () => incrementQuantity(index),
                               ),
                             ],
